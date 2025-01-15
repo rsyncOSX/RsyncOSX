@@ -28,7 +28,7 @@ It might take a few seconds. If not, RsyncUI might become unresponsive.
 
 | App     | UI                  | Latest version                                                                                      |
 |---------|---------------------|-----------------------------------------------------------------------------------------------------|
-| RsyncUI | SwiftUI, declarativ | v2.2.5 - [8 January 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
+| RsyncUI | SwiftUI, declarativ | v2.3.0 - [15 January 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
 
 The [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/)
 
@@ -37,7 +37,7 @@ The [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyn
 ### RsyncOSX (Swift, Storyboard) - archived
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX_archived)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX_archived/v6.8.0/total)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX_archived/v6.8.0/total
 
 **RsyncOSX** is released for *macOS Big Sur* and later.
 
