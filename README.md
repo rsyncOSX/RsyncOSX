@@ -37,7 +37,7 @@ The [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyn
 ### RsyncOSX (Swift, Storyboard) - archived
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX_archived)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX_archived/v6.8.0/total
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX_archived/v6.8.0/total)
 
 **RsyncOSX** is released for *macOS Big Sur* and later.
 
