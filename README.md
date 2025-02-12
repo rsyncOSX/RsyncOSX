@@ -3,7 +3,7 @@
 RsyncUI is a GUI on the Apple macOS platform for the command line tool [rsync](https://github.com/WayneD/rsync). It is `rsync` which executes
 the synchronize data tasks. The GUI is *only* for organizing tasks, setting parameters to `rsync` and make it easier to use `rsync`.
 
-If you find RsyncUI useful, I would appreciate it if you could consider giving me a star on the [RsyncUI repository](https://github.com/rsyncOSX/RsyncUI). 
+If you find RsyncUI useful, I would appreciate it if you could consider giving me a star on the [RsyncUI repository](https://github.com/rsyncOSX/RsyncUI).
 Each star serves as motivation for me to continue developing RsyncUI.
 
 
@@ -24,6 +24,7 @@ It might take a few seconds. If not, RsyncUI might become unresponsive.
 ### RsyncUI (Swift, SwiftUI)
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.3.4/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.3.2/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -31,7 +32,7 @@ It might take a few seconds. If not, RsyncUI might become unresponsive.
 
 | App     | UI                  | Latest version                                                                                      |
 |---------|---------------------|-----------------------------------------------------------------------------------------------------|
-| RsyncUI | SwiftUI, declarativ | v2.3.2 - [29 January 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
+| RsyncUI | SwiftUI, declarativ | v2.3.4 - [12 February 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
 
 The [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/)
 
