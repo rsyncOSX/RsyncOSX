@@ -1,6 +1,7 @@
 ## Hi there 👋
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.4.1/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.3.9/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -16,7 +17,7 @@ Each star serves as motivation for me to continue developing RsyncUI.
 
 | App     | UI                  | Latest version                                                                                      |
 |---------|---------------------|-----------------------------------------------------------------------------------------------------|
-| RsyncUI | SwiftUI, declarativ | v2.3.9 - [9 March 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
+| RsyncUI | SwiftUI, declarativ | v2.4.1 - [21 March 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
 |  |  | [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/) |
 
 ### Install by Homebrew
@@ -32,6 +33,3 @@ RsyncUI might be installed by Homebrew or by direct Download. It is signed and n
 Please be aware it is an external task *not controlled* by RsyncUI, which executes the command-line tool rsync. The progress and termination of the external
 rsync task are monitored. The user can abort the task at any time. Please let the abort finish and cleanup properly before starting a new task.
 It might take a few seconds. If not, RsyncUI might become unresponsive.
-
-
-
