@@ -1,6 +1,7 @@
 ## Hi there 👋
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.5.3/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.4.1/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -10,14 +11,11 @@ the synchronize data tasks. The GUI is *only* for organizing tasks, setting para
 
 The [user documentation](https://github.com/rsyncOSX/rysyncuidocs) is based upon a fork of the excellent Hugo based theme Docsy.
 
-If you find RsyncUI useful, I would appreciate it if you could consider giving me a star on the [RsyncUI repository](https://github.com/rsyncOSX/RsyncUI).
-Each star serves as motivation for me to continue developing RsyncUI.
-
 ![](images/rsyncui.png)
 
 | App     | UI                  | Latest version                                                                                      |
 |---------|---------------------|-----------------------------------------------------------------------------------------------------|
-| RsyncUI | SwiftUI, declarativ | v2.4.1 - [21 March 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
+| RsyncUI | SwiftUI, declarativ | v2.5.3 - [May 14, 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in **active development** |
 |  |  | [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/) |
 
 ### Install by Homebrew
