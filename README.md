@@ -4,6 +4,8 @@
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.5.9/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
+Version 2.6.0 of RsyncUI require Xcode 26 and Swift 6.2 to compile.
+
 This is the repository for RsyncUI, a SwiftUI based macOS application. RsyncUI is released for *macOS Sonoma and later*.
 RsyncUI is a GUI on the Apple macOS platform for the command line tool [rsync](https://github.com/WayneD/rsync). It is `rsync` which executes
 the synchronize data tasks. The GUI is *only* for organizing tasks, setting parameters to `rsync` and make it easier to use `rsync`.
@@ -15,6 +17,7 @@ The [user documentation](https://github.com/rsyncOSX/rysyncuidocs) is based upon
 | App     | UI                  | Latest version                                                                                      |
 |---------|---------------------|-----------------------------------------------------------------------------------------------------|
 | RsyncUI | SwiftUI, declarativ | v2.5.9 - [June 16, 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in *active development* |
+| |  | v2.6.0 rc - [July 3, 2025](https://github.com/rsyncOSX/RsyncUI/releases) - to be released as next version when Xcode 26 and macOS 26 Tahoe are release candidates |
 |  |  | [user guide](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/) |
 
 ### Install by Homebrew
