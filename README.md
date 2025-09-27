@@ -2,6 +2,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.7.1/total)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.7.3/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
 This is [the repository for RsyncUI](https://github.com/rsyncOSX/RsyncUI), a SwiftUI based macOS application. RsyncUI is released for *macOS Sonoma and later*. RsyncUI is a GUI on the Apple macOS platform for the command line tool [rsync](https://github.com/WayneD/rsync). It is `rsync` which executes the synchronize data tasks. The GUI is *only* for organizing tasks, setting parameters to `rsync` and make it easier to use `rsync`.
@@ -10,7 +11,7 @@ The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://githu
 
 | Homebrew | macOS versions |   Latest version   |
 | ----------- |   ----------- | ----------- |
-| `brew install --cask rsyncui`    | macOS Sonoma and later | v2.7.1 - [September 16, 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in *active development* |
+| `brew install --cask rsyncui`    | macOS Sonoma and later | v2.7.3 - [September 26, 2025](https://github.com/rsyncOSX/RsyncUI/releases) - in *active development* |
 | |  | [documentation](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/) |
 
 ![](images/rsyncui.png)
