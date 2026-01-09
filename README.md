@@ -2,6 +2,7 @@
 
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.8.6/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.8.5/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -9,7 +10,7 @@ This is [the repository for RsyncUI](https://github.com/rsyncOSX/RsyncUI), a Swi
 
 | Homebrew | macOS versions |   Latest version   |
 | ----------- |   ----------- | ----------- |
-| `brew install --cask rsyncui`    | macOS Sonoma and later | v2.8.5 - [January 3, 2026](https://github.com/rsyncOSX/RsyncUI/releases) - in *active development* |
+| `brew install --cask rsyncui`    | macOS Sonoma and later | v2.8.6 - [January 9, 2026](https://github.com/rsyncOSX/RsyncUI/releases) - in *active development* |
 | |  | [documentation](https://rsyncui.netlify.app/docs/) and [changelog](https://rsyncui.netlify.app/blog/) |
 
 If you find RsyncUI useful, I would appreciate it if you could consider giving me a star on [the correct repository](https://github.com/rsyncOSX/RsyncUI). Each star serves as motivation for me to continue developing RsyncUI.
