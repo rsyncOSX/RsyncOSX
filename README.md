@@ -22,9 +22,9 @@ The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://githu
 
 # PhotoCulling
 
-![License](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)
-![Latest Release](https://img.shields.io/github/v/release/rsyncOSX/PhotoCulling)
-![Issues](https://img.shields.io/github/issues/rsyncOSX/PhotoCulling)
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/PhotoCulling/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/PhotoCulling/v0.5.0/total)
+[![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/PhotoCulling/issues)
 
 PhotoCulling is a new macOS app designed to help you quickly and efficiently cull large sets of photos. With a streamlined interface and powerful selection tools, PhotoCulling makes it easy to review, compare, and select your best images.
 
