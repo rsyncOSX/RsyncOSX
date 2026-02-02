@@ -23,7 +23,7 @@ The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://githu
 
 # PhotoCulling
 
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/blob/main/Licence.MD)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/PhotoCulling/v0.5.0/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/issues)
 
