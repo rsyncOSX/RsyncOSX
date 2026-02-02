@@ -3,7 +3,6 @@
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.9.0/total)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.8.7/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
 This is [the repository for RsyncUI](https://github.com/rsyncOSX/RsyncUI), a SwiftUI based macOS application. RsyncUI is released for *macOS Sonoma and later*. RsyncUI is a GUI on the Apple macOS platform for the command line tool [rsync](https://github.com/WayneD/rsync). It is `rsync` which executes the synchronize data tasks. The GUI is *only* for organizing tasks, setting parameters to `rsync` and make it easier to use `rsync`.
@@ -23,9 +22,12 @@ The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://githu
 
 # PhotoCulling
 
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/blob/main/Licence.MD)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/PhotoCulling/v0.5.0/total)
-[![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/issues)
+![Build Status](https://github.com/rsyncOSX/PhotoCulling/actions/workflows/main.yml/badge.svg)
+![License](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)
+![Latest Release](https://img.shields.io/github/v/release/rsyncOSX/PhotoCulling)
+![Issues](https://img.shields.io/github/issues/rsyncOSX/PhotoCulling)
+![Pull Requests](https://img.shields.io/github/issues-pr/rsyncOSX/PhotoCulling)
+![Contributors](https://img.shields.io/github/contributors/rsyncOSX/PhotoCulling)
 
 PhotoCulling is a new macOS app designed to help you quickly and efficiently cull large sets of photos. With a streamlined interface and powerful selection tools, PhotoCulling makes it easy to review, compare, and select your best images.
 
