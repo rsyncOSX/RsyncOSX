@@ -1,5 +1,5 @@
-## Hi there 👋
 
+# RsyncUI
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.9.0/total)
@@ -18,4 +18,23 @@ If you find RsyncUI useful, I would appreciate it if you could consider giving m
 The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://github.com/rsyncOSX/rsyncuidocs)) is based upon a fork of the excellent Hugo based theme [Docsy](https://github.com/google/docsy). RsyncUI might be installed by Homebrew or by direct download. It is *signed* and *notarized* by Apple.
 
 ![](images/rsyncui.png)
+
+---
+
+# PhotoCulling
+
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/blob/main/LICENSE)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/PhotoCulling/v0.5.0/total)
+[![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/issues)
+
+PhotoCulling is a new macOS app designed to help you quickly and efficiently cull large sets of photos. With a streamlined interface and powerful selection tools, PhotoCulling makes it easy to review, compare, and select your best images.
+
+| Release | macOS versions |   Latest version   |
+| ----------- |   ----------- | ----------- |
+| Not yet released    | macOS Tahoma and later | v0.5.0 - [February 2, 2026](https://github.com/rsyncOSX/PhotoCulling/releases) - in *active development* |
+| |  | [documentation](https://photoculling.netlify.app/docs/) and [changelog](https://photoculling.netlify.app/blog/) |
+
+If you find PhotoCulling useful, please consider starring [the repository](https://github.com/rsyncOSX/PhotoCulling). Your support helps drive further development!
+
+![](images/photoculling.png)
 
