@@ -20,16 +20,16 @@ The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://githu
 
 ---
 
-# PhotoCulling
+# ARWPhotoCuller
 
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/PhotoCulling)](https://github.com/rsyncOSX/PhotoCulling/blob/main/Licence.MD)
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/ARWPhotoCuller)](https://github.com/rsyncOSX/ARWPhotoCuller/blob/main/Licence.MD)
 
-PhotoCulling is a macOS app designed to help you quickly and efficiently cull large sets of photos. With a streamlined interface and powerful selection tools, PhotoCulling makes it easy to review, compare, and select your best images.
+ARWPhotoCuller is a macOS app designed to help you quickly and efficiently cull large sets of photos. With a streamlined interface and powerful selection tools, ARWPhotoCuller makes it easy to review, compare, and select your best images.
 
 | Release | macOS versions |   Latest version   |
 | ----------- |   ----------- | ----------- |
-| Not yet released   | macOS Tahoe and later | v0.6.x - February x, 2026 - in *active development* |
-| |  | [documentation](https://photoculling.netlify.app/docs/) and [changelog](https://photoculling.netlify.app/blog/) |
+| Not yet released   | macOS Tahoe and later | v1.0.0 - February x, 2026 - in *active development* |
+| |  | [documentation](https://arwphotoculler.netlify.app/docs/) and [changelog](https://arwphotoculler.netlify.app/blog/) |
 
-![](images/photoculling.png)
+![](images/arwphotoculler.png)
 
