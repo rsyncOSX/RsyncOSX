@@ -28,6 +28,8 @@ The [user documentation](https://rsyncui.netlify.app/docs/) is based upon a fork
 
 ARWPhotoCuller is a macOS app designed to help you quickly and efficiently cull large sets of photos. With a streamlined interface and powerful selection tools, ARWPhotoCuller makes it easy to review, compare, and select your best images.
 
+The application has been submitted for review on the Apple App Store. Approval for distribution on the App Store is pending.
+
 | Release | macOS versions |   Latest version   |
 | ----------- |   ----------- | ----------- |
 |  | macOS Tahoe and later | v1.0.1  - [February 17, 2026](https://github.com/rsyncOSX/ARWPhotoCuller/releases)  - in *active development* |
