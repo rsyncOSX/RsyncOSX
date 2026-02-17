@@ -14,7 +14,7 @@ This is [the repository for RsyncUI](https://github.com/rsyncOSX/RsyncUI), a Swi
 
 If you find RsyncUI useful, I would appreciate it if you could consider giving me a star on [the repository](https://github.com/rsyncOSX/RsyncUI). Your support helps drive further development!
 
-The [user documentation](https://rsyncui.netlify.app/docs/)([repo](https://github.com/rsyncOSX/rsyncuidocs)) is based upon a fork of the excellent Hugo based theme [Docsy](https://github.com/google/docsy). RsyncUI might be installed by Homebrew or by direct download. It is *signed* and *notarized* by Apple.
+The [user documentation](https://rsyncui.netlify.app/docs/) is based upon a fork of the excellent Hugo based theme [Docsy](https://github.com/google/docsy). RsyncUI might be installed by Homebrew or by direct download. It is *signed* and *notarized* by Apple.
 
 ![](images/rsyncui.png)
 
@@ -28,7 +28,7 @@ ARWPhotoCuller is a macOS app designed to help you quickly and efficiently cull 
 
 | Release | macOS versions |   Latest version   |
 | ----------- |   ----------- | ----------- |
-| Not yet released   | macOS Tahoe and later | v1.0.0 - February x, 2026 - in *active development* |
+|  | macOS Tahoe and later | v1.0.1  - [February 17, 2026](https://github.com/rsyncOSX/ARWPhotoCuller/releases)  - in *active development* |
 | |  | [documentation](https://arwphotoculler.netlify.app/docs/) and [changelog](https://arwphotoculler.netlify.app/blog/) |
 
 ![](images/arwphotoculler.png)
