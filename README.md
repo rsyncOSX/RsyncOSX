@@ -28,7 +28,8 @@ RawCull is a macOS app designed to help you quickly and efficiently cull large s
 
 | Release | macOS versions |   Latest version   |
 | ----------- |   ----------- | ----------- |
-|  | macOS 26 Tahoe and later  and **Apple Silicon** (M-series) only | v1.0.6  - [February 22, 2026](https://github.com/rsyncOSX/RawCull/releases)  - in *active development* |
+|  | - macOS 26 Tahoe and later 
+- **Apple Silicon** (M-series) only | v1.0.6  - [February 22, 2026](https://github.com/rsyncOSX/RawCull/releases)  - in *active development* |
 | |  | [documentation](https://rawcull.netlify.app/docs/) and [changelog](https://rawcull.netlify.app/blog/) |
 
 ![](images/rawcull.png)
