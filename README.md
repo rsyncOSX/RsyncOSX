@@ -24,6 +24,10 @@ The [user documentation](https://rsyncui.netlify.app/docs/) is based upon a fork
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RawCull)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
 
+> [!WARNING]
+> RawCull is currently in development, with daily code updates. Both the user interface and internal technical aspects are undergoing changes. 
+> Despite these updates, RawCull remains usable and quite robust. There is also a [QUALITY report](https://github.com/rsyncOSX/RawCull/blob/main/QUALITY.md) to read.
+
 RawCull is a macOS app designed to help you quickly and efficiently cull large sets of Sony ARW A1 mkI and mkII raw photos. With a streamlined interface and powerful selection tools, RawCull makes it easy to review, compare, and select your best images.
 
 | macOS versions |   Latest version   |
