@@ -3,7 +3,6 @@
 
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.9.2/total)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.9.1/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
 This is [the repository for RsyncUI](https://github.com/rsyncOSX/RsyncUI), a SwiftUI based macOS application. RsyncUI is released for *macOS Sonoma and later*. RsyncUI is a GUI on the Apple macOS platform for the command line tool [rsync](https://github.com/WayneD/rsync). It is `rsync` which executes the synchronize data tasks. The GUI is *only* for organizing tasks, setting parameters to `rsync` and make it easier to use `rsync`.
@@ -35,7 +34,7 @@ RawCull is also released on [Apple App Store](https://apps.apple.com/no/app/rawc
 
 | macOS versions |   Latest version   |
 |   ----------- | ----------- |
-| macOS 26 Tahoe, **Apple Silicon** (M-series) only | v1.1.3  - [March 10, 2026](https://github.com/rsyncOSX/RawCull/releases)  - in *active development* |
+| macOS 26 Tahoe, **Apple Silicon** (M-series) only | v1.1.4  - [March 12, 2026](https://github.com/rsyncOSX/RawCull/releases)  - in *active development* |
 |  | [documentation](https://rawcull.netlify.app/docs/) and [changelog](https://rawcull.netlify.app/blog/) |
 
 ![](images/rawcull.png)
