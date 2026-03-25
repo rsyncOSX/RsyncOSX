@@ -34,7 +34,7 @@ RawCull is available for download on the [Apple App Store](https://apps.apple.co
 
 | macOS versions |   Latest version   |
 |   ----------- | ----------- |
-| macOS 26 Tahoe, **Apple Silicon** (M-series) only | v1.2.1  - March 22, 2026  - in *active development* |
+| macOS 26 Tahoe, **Apple Silicon** (M-series) only | v1.2.3  - March 25, 2026  - in *active development* |
 |  | [documentation](https://rawcull.netlify.app/docs/) and [changelog](https://rawcull.netlify.app/blog/) |
 
 ![](images/rawcull.png)
