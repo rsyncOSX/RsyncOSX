@@ -29,15 +29,16 @@ RawCull is currently in development, with frequent code updates. Both the user i
 
 RawCull is a macOS app designed to help you quickly and efficiently cull large sets of Sony ARW A1 mkI and mkII raw photos. With a streamlined interface and powerful selection tools, RawCull makes it easy to review, compare, and select your best images.
 
-> April 4, 2026: It appears that RawCull supports a wider range of Sony FullFrame bodies. I have personally tested the Sony 7RV and the new Sony 7V. After Easter, I intend to acquire several full-frame ARW files from the most commonly used Sony bodies to conduct tests. Following the completion of these tests, I will compile a comprehensive list of the Sony bodies that RawCull supports.
+> April 4, 2026:
+It has been observed that RawCull supports a broader range of Sony FullFrame camera bodies. I have conducted tests on ARW files for the Sony A7RV and the newly released Sony A7V. After Easter, I plan to acquire additional full-frame ARW files from Sony A bodies to conduct further tests. Upon the completion of these tests, I will compile a comprehensive list of the Sony bodies that RawCull supports.
 
-| Camera Body | Verified Tested |
+| Camera Body | Verified |
 |---|---|
-| Sony A1 mkI and mkII | Verified |
+| Sony A1 mk I and mk II | Verified |
 | Sony A7RV | Tested and seems to work |
 | Sony A7V | Tested and seems to work |
-| Sony A7S mk iii | not tested  |
-| Sony A9 mk III  | not tested |
+| Sony A7S mk III | Not verified  |
+| Sony A9 mk III  | Not verified |
 
 RawCull is available for download on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) or from the [GitHub Repository](https://github.com/rsyncOSX/RawCull/releases). It is possible that the GitHub version is released a day or two before the Apple App Store release due to the different release processes employed by each platform.
 
