@@ -32,7 +32,7 @@ The following Sony biodies successfully extracts across EXIF, focus points, shar
 
 | Camera Body  | EXIF | FocusPt | Sharpness | Saliency | RAW Types | Dimensions |
 |---|---|---|---|---|---|---|
-| ILCE-1   |  ✅  |  ✅  | ✅  | Compressed | 8640 × 5760 (49.8 MP, L) |
+| ILCE-1   |  ✅  |  ✅  | ✅  | ✅  | Compressed | 8640 × 5760 (49.8 MP, L) |
 | ILCE-1M2  |  ✅  |  ✅  |  ✅  |  ✅  | Compressed | 4320 × 2880 (12.4 MP, S), 5616 × 3744 (21.0 MP, M), 8640 × 5760 (49.8 MP, L) |
 | ILCE-7M5  |  ✅  |  ✅  |  ✅  |  ✅  | Compressed | 7008 × 4672 (32.7 MP, L) |
 | ILCE-7RM5  |  ✅  |  ✅  |  ✅  |  ✅  | Compressed | 9504 × 6336 (60.2 MP, L) |
