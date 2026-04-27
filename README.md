@@ -47,9 +47,8 @@ Nikon support targets current Z-series bodies. AF-point extraction uses the `AFI
 
 | macOS | Latest version |
 | --- | --- |
-| macOS Sequoia, **Apple Silicon** (M-series) only | v1.6.4 — April 24, 2026 — *active development* |
+| macOS Sequoia, **Apple Silicon** (M-series) only | v1.6.5 — April 26, 2026 — *active development* |
 | | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
 
-RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases). The GitHub version may appear a day or two ahead of the App Store release due to review timelines.
-
+RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
 ![](images/rawcull.png)
