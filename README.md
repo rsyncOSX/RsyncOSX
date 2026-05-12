@@ -7,7 +7,7 @@
 
 | Homebrew | macOS | Latest version |
 | --- | --- | --- |
-| `brew install --cask rsyncui` | macOS Sonoma and later | v2.9.7rc — [May 9, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
+| `brew install --cask rsyncui` | macOS Sonoma and later | v2.9.8 — [May 12, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
 | | | [Documentation](https://rsyncui.netlify.app/docs/) · [Release notes](https://rsyncui.netlify.app/blog/) |
 
 RsyncUI can be installed via Homebrew or direct download. It is *signed* and *notarized* by Apple. The [user documentation](https://rsyncui.netlify.app/docs/) is built on a fork of the Hugo-based [Docsy](https://github.com/google/docsy) theme.
