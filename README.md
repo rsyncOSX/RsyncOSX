@@ -1,6 +1,6 @@
 # RsyncUI
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.9.8/total)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.0/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v2.9.3/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -8,7 +8,7 @@
 
 | Homebrew | macOS | Latest version |
 | --- | --- | --- |
-| `brew install --cask rsyncui` | macOS Sonoma and later | v2.9.8 — [May 12, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
+| `brew install --cask rsyncui` | macOS Sonoma and later | v3.0.0 — [May 14, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
 | | | [Documentation](https://rsyncui.netlify.app/docs/) · [Release notes](https://rsyncui.netlify.app/blog/) |
 
 RsyncUI can be installed via Homebrew or direct download. It is *signed* and *notarized* by Apple. The [user documentation](https://rsyncui.netlify.app/docs/) is built on a fork of the Hugo-based [Docsy](https://github.com/google/docsy) theme.
@@ -28,7 +28,7 @@ Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app
 
 | macOS | Latest version |
 | --- | --- |
-| macOS Sequoia, **Apple Silicon** (M-series) only | v1.7.4 — May 10, 2026 — *active development* |
+| macOS Sequoia, **Apple Silicon** (M-series) only | v1.8.0 — May 14, 2026 — *active development* |
 | | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
 
 RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
