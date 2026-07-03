@@ -1,5 +1,6 @@
 # RsyncUI
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.2/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.0/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -7,7 +8,7 @@
 
 | Homebrew | macOS | Latest version |
 | --- | --- | --- |
-| `brew install --cask rsyncui` | macOS Sonoma and later | v3.0.0 — [May 14, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
+| `brew install --cask rsyncui` | macOS Sonoma and later | v3.0.2 — [June 24, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
 | | | [Documentation](https://rsyncui.netlify.app/docs/) · [Release notes](https://rsyncui.netlify.app/blog/) |
 
 RsyncUI can be installed via Homebrew or direct download. It is *signed* and *notarized* by Apple. The [user documentation](https://rsyncui.netlify.app/docs/) is built on a fork of the Hugo-based [Docsy](https://github.com/google/docsy) theme.
