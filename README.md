@@ -28,7 +28,7 @@ Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app
 
 | macOS | Latest version |
 | --- | --- |
-| macOS Sequoia, **Apple Silicon** (M-series) only | v2.2.1 — June 28, 2026 — *active development* |
+| macOS Sequoia, **Apple Silicon** (M-series) only | v2.2.4 — July 3, 2026 — *active development* |
 | | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
 
 RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
