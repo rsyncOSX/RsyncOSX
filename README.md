@@ -22,6 +22,8 @@ If RsyncUI is useful to you, a ⭐ on [the repository](https://github.com/rsyncO
 # RawCull
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RawCull)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
 
+There is also an AI based version of RawCull. The AI version is a branch of the main RawCull repository, there is also a copy only of the [AI branch on GitHub](https://github.com/rsyncOSX/RawCullAI).
+
 RawCull is a macOS photo review and culling application for Sony ARW RAW files, built exclusively for Apple Silicon. It combines a streamlined interface with GPU-accelerated analysis — including EXIF extraction, focus point detection, sharpness scoring, and saliency — to help you quickly identify your best shots.
 
 Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app/docs/).
