@@ -1,14 +1,14 @@
 # RsyncUI
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.3/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.2/total)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.0/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
 [RsyncUI](https://github.com/rsyncOSX/RsyncUI) is a SwiftUI macOS GUI for the command line tool [rsync](https://github.com/WayneD/rsync). It handles task organisation, parameter configuration, and scheduling — `rsync` does the actual work of synchronising your data. Requires *macOS Sonoma or later*.
 
 | Homebrew | macOS | Latest version |
 | --- | --- | --- |
-| `brew install --cask rsyncui` | macOS Sonoma and later | v3.0.2 — [June 24, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
+| `brew install --cask rsyncui` | macOS Sonoma and later | v3.0.3 — [August 8, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
 | | | [Documentation](https://rsyncui.netlify.app/docs/) · [Release notes](https://rsyncui.netlify.app/blog/) |
 
 RsyncUI can be installed via Homebrew or direct download. It is *signed* and *notarized* by Apple. The [user documentation](https://rsyncui.netlify.app/docs/) is built on a fork of the Hugo-based [Docsy](https://github.com/google/docsy) theme.
@@ -28,7 +28,7 @@ Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app
 
 | macOS | Latest version |
 | --- | --- |
-| macOS Sequoia, **Apple Silicon** (M-series) only | v2.3.3 — August 1, 2026 — *active development* |
+| macOS Sequoia, **Apple Silicon** (M-series) only | v2.3.4 — August 7, 2026 — *active development* |
 | | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
 
 RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
