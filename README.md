@@ -1,51 +1,63 @@
-# RsyncUI
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.3/total)
-![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.2/total)
-[![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
+# macOS apps by rsyncOSX
 
-[RsyncUI](https://github.com/rsyncOSX/RsyncUI) is a SwiftUI macOS GUI for the command line tool [rsync](https://github.com/WayneD/rsync). It handles task organisation, parameter configuration, and scheduling — `rsync` does the actual work of synchronising your data. Requires *macOS Sonoma or later*.
+Native macOS applications for file synchronization, photo culling, and private on-device image search.
 
-| Homebrew | macOS | Latest version |
+All three applications are actively developed, and their core processing stays on your Mac.
+
+| Application | Purpose | Requirements |
 | --- | --- | --- |
-| `brew install --cask rsyncui` | macOS Sonoma and later | v3.0.3 — [August 7, 2026](https://github.com/rsyncOSX/RsyncUI/releases) — *active development* |
-| | | [Documentation](https://rsyncui.netlify.app/docs/) · [Release notes](https://rsyncui.netlify.app/blog/) |
-
-RsyncUI can be installed via Homebrew or direct download. It is *signed* and *notarized* by Apple. The [user documentation](https://rsyncui.netlify.app/docs/) is built on a fork of the Hugo-based [Docsy](https://github.com/google/docsy) theme.
-
-If RsyncUI is useful to you, a ⭐ on [the repository](https://github.com/rsyncOSX/RsyncUI) is always appreciated!
-
-![](images/rsyncui.png)
+| [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma or later |
+| [RawCull](#rawcull) | GPU-accelerated Sony RAW photo culling | Apple Silicon, macOS Sequoia or later |
+| [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate beta |
 
 ---
 
-# RawCull
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RawCull)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
+## RsyncUI
 
-RawCull is a macOS photo review and culling application for Sony ARW RAW files, built exclusively for Apple Silicon. It combines a streamlined interface with GPU-accelerated analysis — including EXIF extraction, focus point detection, sharpness scoring, and saliency — to help you quickly identify your best shots.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![RsyncUI v3.0.3 downloads](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.3/total)
+![RsyncUI v3.0.2 downloads](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.2/total)
 
-Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app/docs/).
+A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that makes synchronization tasks easier to configure, organize, and schedule. RsyncUI configures and runs `rsync`; all file synchronization is performed by `rsync` itself.
 
-| macOS | Latest version |
-| --- | --- |
-| macOS Sequoia, **Apple Silicon** (M-series) only | v2.3.5 — August 7, 2026 — *active development* |
-| | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
-| macOS Golden Gate beta, **Apple Silicon** (M-series) only  | v3.0.0 beta — August 13, 2026 — *active development* , include AI support|
+[Download](https://github.com/rsyncOSX/RsyncUI/releases) · [Documentation](https://rsyncui.netlify.app/docs/) · [Release notes](https://rsyncui.netlify.app/blog/) · [Report an issue](https://github.com/rsyncOSX/RsyncUI/issues)
 
-RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
-![](images/rawcull.png)
+```shell
+brew install --cask rsyncui
+```
+
+**Requires macOS Sonoma or later.** The latest release is [v3.0.3](https://github.com/rsyncOSX/RsyncUI/releases), released August 7, 2026. RsyncUI is signed and notarized by Apple.
+
+![RsyncUI synchronization interface](images/rsyncui.png)
 
 ---
 
-# RawCullFB
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RawCullFB)](https://github.com/rsyncOSX/RawCullFB/blob/main/Licence.MD)
+## RawCull
 
-RawCullFB is a macOS SwiftUI photo browser with local CLIP indexing and semantic search. It combines a familiar folder browser and zoomable preview with recursive, natural-language search across JPEG, PNG, HEIC/HEIF, TIFF, and Sony ARW files. Model inference, image embeddings, and search all stay on the Mac.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
 
-| macOS | Latest version |
-| --- | --- |
-| macOS Golden Gate beta, **Apple Silicon** (M-series) only | v2.4.0 — [August 15, 2026](https://github.com/rsyncOSX/RawCullFB/releases) — *active development* |
+A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-accelerated analysis—including EXIF extraction, focus-point detection, sharpness scoring, and visual saliency—to help you identify your strongest photographs.
 
-RawCullFB is available via [GitHub Releases](https://github.com/rsyncOSX/RawCullFB/releases). It is sandboxed, signed, and notarized by Apple.
+[Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [GitHub releases](https://github.com/rsyncOSX/RawCull/releases) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
-![](images/rawcullfb.png)
+**Requires Apple Silicon.** The current release, v2.3.5, supports macOS Sequoia and later. A v3.0.0 beta with AI-powered features is available for macOS Golden Gate beta. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
+
+![RawCull photo review interface](images/rawcull.png)
+
+---
+
+## RawCullFB
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCullFB/blob/main/Licence.MD)
+
+A private, on-device photo browser with natural-language search. RawCullFB uses local CLIP indexing to search JPEG, PNG, HEIC/HEIF, TIFF, and Sony ARW files—without uploading your photographs. Model inference, image embeddings, and search all stay on your Mac.
+
+[Download](https://github.com/rsyncOSX/RawCullFB/releases)
+
+**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.0](https://github.com/rsyncOSX/RawCullFB/releases), released August 15, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
+
+![RawCullFB semantic image search](images/rawcullfb.png)
+
+---
+
+If these applications are useful to you, consider starring their repositories. Feedback and issue reports are always welcome.
