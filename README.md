@@ -33,3 +33,17 @@ Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app
 
 RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
 ![](images/rawcull.png)
+
+---
+
+# RawCullFB
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RawCullFB)](https://github.com/rsyncOSX/RawCullFB/blob/main/Licence.MD)
+
+RawCullFB is a macOS SwiftUI photo browser with local CLIP indexing and semantic search. It combines a familiar folder browser and zoomable preview with recursive, natural-language search across JPEG, PNG, HEIC/HEIF, TIFF, and Sony ARW files. Model inference, image embeddings, and search all stay on the Mac.
+
+| macOS | Latest version |
+| --- | --- |
+| macOS Golden Gate beta, **Apple Silicon** (M-series) only | v2.4.0 — [August 15, 2026](https://github.com/rsyncOSX/RawCullFB/releases) — *active development* |
+
+RawCullFB is available via [GitHub Releases](https://github.com/rsyncOSX/RawCullFB/releases). It is sandboxed, signed, and notarized by Apple.
+![](images/rawcullfb.png)
