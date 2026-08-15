@@ -28,6 +28,7 @@ Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app
 
 | macOS | Latest version |
 | --- | --- |
+| macOS Golden Gate beta, **Apple Silicon** (M-series) only  | v3.0.0 beta — August 7, 2026 — *active development* , include AI support|
 | macOS Sequoia, **Apple Silicon** (M-series) only | v2.3.5 — August 7, 2026 — *active development* |
 | | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
 
