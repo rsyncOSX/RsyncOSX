@@ -2,13 +2,13 @@
 
 Native macOS applications for file synchronization, photo culling, and private on-device image search.
 
-All three applications are actively developed, and their core processing stays on your Mac.
+All three (four) applications are actively developed, and their core processing stays on your Mac.
 
 | Application | Purpose | Requirements |
 | --- | --- | --- |
 | [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma or later |
-| [RawCull](#rawcull) | GPU-accelerated Sony RAW photo culling | Apple Silicon, macOS Sequoia or later |
-| [RawCull (AI)](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate beta |
+| [RawCull](#rawcull) | GPU-accelerated Sony RAW photo culling | Apple Silicon, macOS Sequoia or later, version 2.3.5 is the latest on macOS Tahoe |
+| [RawCull (AI)](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate beta, version 3.0.0 is next version and will only run on macOS Golden Gate |
 | [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate beta |
 
 ---
