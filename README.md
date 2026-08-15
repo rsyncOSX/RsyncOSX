@@ -28,9 +28,9 @@ Camera body compatibility, primary [Sony Fullformat](https://rawcull.netlify.app
 
 | macOS | Latest version |
 | --- | --- |
-| macOS Golden Gate beta, **Apple Silicon** (M-series) only  | v3.0.0 beta — August 7, 2026 — *active development* , include AI support|
 | macOS Sequoia, **Apple Silicon** (M-series) only | v2.3.5 — August 7, 2026 — *active development* |
 | | [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/) |
+| macOS Golden Gate beta, **Apple Silicon** (M-series) only  | v3.0.0 beta — August 7, 2026 — *active development* , include AI support|
 
 RawCull is available on the [Apple App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) and via [GitHub Releases](https://github.com/rsyncOSX/RawCull/releases).
 ![](images/rawcull.png)
@@ -47,4 +47,5 @@ RawCullFB is a macOS SwiftUI photo browser with local CLIP indexing and semantic
 | macOS Golden Gate beta, **Apple Silicon** (M-series) only | v2.4.0 — [August 15, 2026](https://github.com/rsyncOSX/RawCullFB/releases) — *active development* |
 
 RawCullFB is available via [GitHub Releases](https://github.com/rsyncOSX/RawCullFB/releases). It is sandboxed, signed, and notarized by Apple.
+
 ![](images/rawcullfb.png)
