@@ -1,4 +1,4 @@
-# macOS apps by rsyncOSX
+# macOS apps by Thomas (rsyncOSX)
 
 Native macOS applications for file synchronization, photo culling, and private on-device image search. All four (five) applications are actively developed, and their core processing stays on your Mac.
 
