@@ -10,6 +10,8 @@ Native macOS applications for file synchronization, photo culling, and private o
 | [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate beta |
 | [GitBranchStatus](https://github.com/rsyncOSX/GitHubLocalRemote) | small app to display status local vs GitHub repository  | Apple Silicon, macOS Tahoe and later |
 
+About Sandboxing and security, see last on page.
+
 ---
 
 ## RsyncUI
@@ -61,3 +63,15 @@ A private, on-device photo browser with natural-language search. RawCullFB uses 
 ---
 
 If these applications are useful to you, consider starring their repositories. Feedback and issue reports are always welcome.
+
+## Sandboxing, signing, and notarization
+
+RawCull and RawCullFB treats macOS security and distribution as three separate, complementary layers:
+
+- **App Sandbox:** Both RawCullFB and its model-downloader extension run with the App Sandbox and Hardened Runtime enabled. The main app receives read/write access only to folders explicitly selected by the user and preserves that access with security-scoped bookmarks. The app and extension share model assets through their declared App Group. Sandboxing limits the files and system resources that compromised or defective code could reach; it does not establish who published the app.
+- **Code signing:** Release exports use an Apple-issued **Developer ID Application** identity. The release workflow verifies the signatures and secure timestamps of both the app and its embedded extension before distribution. Signing identifies the developer and lets macOS detect changes made to the bundle after it was signed; it does not mean Apple has inspected the software for malicious content.
+- **Notarization:** The signed app and its signed DMG are submitted to Apple's notary service. Their accepted tickets are stapled to the distributed artifacts and checked with Gatekeeper/stapler tooling. Notarization gives macOS evidence that Apple scanned the submitted build and found no known malicious content, while stapling makes that evidence available even when the Mac is offline.
+
+These layers matter together: the sandbox reduces the app's reach, signing protects identity and integrity, and notarization supports a trusted Gatekeeper launch experience. A local debug build is intended only for development and is not a substitute for the signed, notarized release produced by `make build`. Users should obtain releases from a trusted project channel; no security mechanism can make an untrusted download source safe.
+
+
