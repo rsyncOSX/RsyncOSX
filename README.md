@@ -66,7 +66,7 @@ If these applications are useful to you, consider starring their repositories. F
 
 ## Sandboxing, signing, and notarization
 
-RawCull and RawCullFB treats macOS security and distribution as three separate, complementary layers:
+RsyncUI is not Sandboxed, but signed and notarized. RawCull and RawCullFB are Sandboxed, signed and notarized.
 
 - **App Sandbox:** Both RawCullFB and its model-downloader extension run with the App Sandbox and Hardened Runtime enabled. The main app receives read/write access only to folders explicitly selected by the user and preserves that access with security-scoped bookmarks. The app and extension share model assets through their declared App Group. Sandboxing limits the files and system resources that compromised or defective code could reach; it does not establish who published the app.
 - **Code signing:** Release exports use an Apple-issued **Developer ID Application** identity. The release workflow verifies the signatures and secure timestamps of both the app and its embedded extension before distribution. Signing identifies the developer and lets macOS detect changes made to the bundle after it was signed; it does not mean Apple has inspected the software for malicious content.
