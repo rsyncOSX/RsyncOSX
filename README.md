@@ -56,7 +56,7 @@ A private, on-device photo browser with natural-language search. RawCullFB uses 
 
 [Download](https://github.com/rsyncOSX/RawCullFB/releases)
 
-**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.2](https://github.com/rsyncOSX/RawCullFB/releases), released August 17, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
+**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.3](https://github.com/rsyncOSX/RawCullFB/releases), released August 18, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
 
 ![RawCullFB semantic image search](images/rawcullfb.png)
 
