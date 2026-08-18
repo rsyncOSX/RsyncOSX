@@ -6,7 +6,7 @@ Native macOS applications for file synchronization, photo culling, and private o
 | --- | --- | --- |
 | [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma and later |
 | [RawCull](#rawcull) | GPU-accelerated Sony RAW photo culling | Apple Silicon, macOS Tahoe and later, version 2.3.5 is the latest on macOS Tahoe |
-| [RawCull (AI)](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate beta, version 3.0.0 is next version and will only run on macOS Golden Gate |
+| [RawCull (AI)](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate beta, version 3.1.0 is next version and will only run on macOS Golden Gate |
 | [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate beta |
 | [GitBranchStatus](https://github.com/rsyncOSX/GitHubLocalRemote) | small app to display status local vs GitHub repository  | Apple Silicon, macOS Tahoe and later |
 
@@ -42,7 +42,7 @@ A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-ac
 
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [GitHub releases](https://github.com/rsyncOSX/RawCull/releases) · [Download RawCull (AI) v3.0.0 beta](https://github.com/rsyncOSX/RawCull/releases/tag/v3.0.0) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
-**Requires Apple Silicon.** The current release, v2.3.5, supports macOS Tahoe and later. The [RawCull (AI) v3.0.0 beta](https://github.com/rsyncOSX/RawCull/releases/tag/v3.0.0) with AI-powered features is available for macOS Golden Gate beta. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
+**Requires Apple Silicon.** The current release, v2.3.5, supports macOS Tahoe and later. The [RawCull (AI) v3.1.0 beta](https://github.com/rsyncOSX/RawCull/releases/tag/v3.1.0) with AI-powered features is available for macOS Golden Gate beta. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
 
