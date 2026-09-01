@@ -54,11 +54,11 @@ A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-ac
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCullFB/blob/main/Licence.MD)
 
-A private, on-device photo browser with natural-language search. RawCullFB uses local CLIP indexing to search JPEG, PNG, HEIC/HEIF, TIFF, and Sony ARW files—without uploading your photographs. Model inference, image embeddings, and search all stay on your Mac.
+A private, on-device photo browser with natural-language search. RawCullFB uses local CLIP indexing to search DNG, JPEG, PNG, HEIC/HEIF, TIFF, and Sony ARW files—without uploading your photographs. Model inference, image embeddings, and search all stay on your Mac.
 
 [Download](https://github.com/rsyncOSX/RawCullFB/releases)
 
-**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), released August 28, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
+**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), released Septmeber 1, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
 
 ![RawCullFB semantic image search](images/rawcullfb.png)
 
