@@ -1,5 +1,7 @@
 # macOS apps by Thomas (rsyncOSX)
 
+About security, sandboxing, signing and notarization, see last on page.
+
 Native macOS applications for file synchronization, photo culling, and private on-device image search. All four (five) applications are actively developed, and their core processing stays on your Mac.
 
 | Application | Purpose | Requirements |
@@ -10,7 +12,7 @@ Native macOS applications for file synchronization, photo culling, and private o
 | [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate beta |
 | [GitBranchStatus](https://github.com/rsyncOSX/GitHubLocalRemote) | small app to display status local vs GitHub repository  | Apple Silicon, macOS Tahoe and later |
 
-About Sandboxing and security, see last on page.
+
 
 ---
 
