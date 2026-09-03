@@ -18,7 +18,6 @@ About Sandboxing and security, see last on page.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
 ![RsyncUI v3.0.3 downloads](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.3/total)
-![RsyncUI v3.0.2 downloads](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.2/total)
 
 A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that makes synchronization tasks easier to configure, organize, and schedule. RsyncUI configures and runs `rsync`; all file synchronization is performed by `rsync` itself.
 
@@ -28,7 +27,7 @@ A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that m
 brew install --cask rsyncui
 ```
 
-**Requires macOS Sonoma or later.** The latest release is [v3.0.3](https://github.com/rsyncOSX/RsyncUI/releases), released August 7, 2026. RsyncUI is signed and notarized by Apple.
+**Requires macOS Sonoma or later.** The latest release is [v3.0.3](https://github.com/rsyncOSX/RsyncUI/releases), released August 7, 2026. RsyncUI is signed and notarized by Apple. Version 3.0.4 will be compiled as a new release as soon as Xcode 27 is released. 
 
 ![RsyncUI synchronization interface](images/rsyncui.png)
 
@@ -58,7 +57,7 @@ A private, on-device photo browser with natural-language search. RawCullFB uses 
 
 [Download](https://github.com/rsyncOSX/RawCullFB/releases)
 
-**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), released September 1, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
+**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), an updated release build September 3, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
 
 ![RawCullFB semantic image search](images/rawcullfb.png)
 
