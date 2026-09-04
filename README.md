@@ -1,6 +1,6 @@
 # macOS apps by Thomas (rsyncOSX)
 
-About security, sandboxing, signing and notarization, see last on page.
+About **security, sandboxing, signing** and **notarization**, see last on page.
 
 Native macOS applications for file synchronization, photo culling, and private on-device image search. All four (five) applications are actively developed, and their core processing stays on your Mac.
 
@@ -8,18 +8,18 @@ Native macOS applications for file synchronization, photo culling, and private o
 | --- | --- | --- |
 | [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma and later |
 | [RawCull](#rawcull) | GPU-accelerated Sony RAW photo culling | Apple Silicon, macOS Tahoe and later, version 3.0.0 is the latest on macOS Tahoe |
-| [RawCull (AI)](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate beta, version 3.2.0 is next version and will only run on macOS Golden Gate |
-| [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate beta |
+| [RawCull (AI)](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate, version 3.2.0 is next version and will only run on macOS Golden Gate |
+| [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate |
 | [GitBranchStatus](https://github.com/rsyncOSX/GitHubLocalRemote) | small app to display status local vs GitHub repository  | Apple Silicon, macOS Tahoe and later |
-
-
 
 ---
 
 ## RsyncUI
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
-![RsyncUI v3.0.3 downloads](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.3/total)
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.4/total)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.3/total)
+[![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
 A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that makes synchronization tasks easier to configure, organize, and schedule. RsyncUI configures and runs `rsync`; all file synchronization is performed by `rsync` itself.
 
@@ -45,7 +45,7 @@ A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-ac
 
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [GitHub releases](https://github.com/rsyncOSX/RawCull/releases) · [Download RawCull (AI) v3.2.0 beta](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.0) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
-**Requires Apple Silicon.** The current release, v3.0.0, supports macOS Tahoe and later. The [RawCull (AI) v3.2.0 beta](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.0) with AI-powered features is available for macOS Golden Gate beta. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
+**Requires Apple Silicon.** The current release, v3.0.0, supports macOS Tahoe and later. The [RawCull (AI) v3.2.0 beta](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.0) with AI-powered features is available for **macOS Golden Gate** . See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
 
@@ -59,7 +59,7 @@ A private, on-device photo browser with natural-language search. RawCullFB uses 
 
 [Download](https://github.com/rsyncOSX/RawCullFB/releases)
 
-**Requires Apple Silicon and macOS Golden Gate beta.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), an updated release build September 3, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
+**Requires Apple Silicon and macOS Golden Gate.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), an updated release build September 3, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
 
 ![RawCullFB semantic image search](images/rawcullfb.png)
 
