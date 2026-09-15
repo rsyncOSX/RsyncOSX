@@ -39,13 +39,13 @@ brew install --cask rsyncui
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
 
-RawCull version 3.2.1 is available via Apple’s TestFlight; please email thomeven@gmail.com if you would like to try it through that service.
+RawCull version 3.2.2 is available via Apple’s TestFlight; please email thomeven@gmail.com if you would like to try it through that service.
 
 A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-accelerated analysis—including EXIF extraction, focus-point detection, sharpness scoring, and visual saliency—to help you identify your strongest photographs.
 
-[Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [GitHub releases](https://github.com/rsyncOSX/RawCull/releases) · [Download RawCull (AI) v3.2.1](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.1) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
+[Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
-**Requires Apple Silicon.** The current release, v3.0.0, supports macOS Tahoe and later. The [RawCull (AI) v3.2.1](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.1) with AI-powered features is available for **macOS Golden Gate** . See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
+**Requires Apple Silicon.** The [RawCull v3.2.1](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.1) with AI-powered features is available for **macOS Golden Gate** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
 
