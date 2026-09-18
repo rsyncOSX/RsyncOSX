@@ -38,7 +38,7 @@ brew install --cask rsyncui
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
 
-RawCull version 3.2.2 is available via Apple’s TestFlight; please email thomeven@gmail.com if you would like to try it through that service.
+RawCull version 3.2.4 is available via Apple’s TestFlight; please email thomeven@gmail.com if you would like to try it through that service.
 
 A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-accelerated analysis—including EXIF extraction, focus-point detection, sharpness scoring, and visual saliency—to help you identify your strongest photographs.
 
