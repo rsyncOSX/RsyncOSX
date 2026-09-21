@@ -1,14 +1,11 @@
 # macOS apps by Thomas (rsyncOSX)
 
-About **security, sandboxing, signing** and **notarization**, see last on page.
-
 Native macOS applications for file synchronization, photo culling, and private on-device image search. All four (five) applications are actively developed, and their core processing stays on your Mac.
 
 | Application | Purpose | Requirements |
 | --- | --- | --- |
 | [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma and later |
 | [RawCull](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate |
-| [RawCullFB](#rawcullfb) | Private semantic image search using local AI | Apple Silicon, macOS Golden Gate |
 | [GitBranchStatus](https://github.com/rsyncOSX/GitHubLocalRemote) | small app to display status local vs GitHub repository  | Apple Silicon, macOS Tahoe and later |
 
 ---
@@ -38,8 +35,6 @@ brew install --cask rsyncui
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCull/blob/main/Licence.MD)
 
-RawCull version 3.2.4 is available via Apple’s TestFlight; please email thomeven@gmail.com if you would like to try it through that service.
-
 A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-accelerated analysis—including EXIF extraction, focus-point detection, sharpness scoring, and visual saliency—to help you identify your strongest photographs.
 
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
@@ -47,33 +42,5 @@ A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-ac
 **Requires Apple Silicon.** The [RawCull v3.2.1](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.1) with AI-powered features is available for **macOS Golden Gate** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
-
----
-
-## RawCullFB
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawCullFB/blob/main/Licence.MD)
-
-A private, on-device photo browser with natural-language search. RawCullFB uses local CLIP indexing to search DNG, JPEG, PNG, HEIC/HEIF, TIFF, and Sony ARW files—without uploading your photographs. Model inference, image embeddings, and search all stay on your Mac.
-
-[Download](https://github.com/rsyncOSX/RawCullFB/releases)
-
-**Requires Apple Silicon and macOS Golden Gate.** The latest release is [v2.4.4](https://github.com/rsyncOSX/RawCullFB/releases), an updated release build September 3, 2026. RawCullFB is sandboxed, signed, and notarized by Apple.
-
-![RawCullFB semantic image search](images/rawcullfb.png)
-
----
-
-If these applications are useful to you, consider starring their repositories. Feedback and issue reports are always welcome.
-
-## Sandboxing, signing, and notarization
-
-RsyncUI is not Sandboxed, but signed and notarized. RawCull and RawCullFB are Sandboxed, signed and notarized.
-
-- **App Sandbox**: RawCull, RawCullFB and its model downloader extension run with the App Sandbox and Hardened Runtime enabled. The main apps receives read/write access only to folders explicitly selected by the user and preserves that access with security-scoped bookmarks. The app and extension share model assets through their declared App Group. Sandboxing limits the files and system resources that compromised or defective code could reach; it does not identify the app's publisher.
-- **Code signing**: All release exports (all apps for download) uses an Apple-issued Developer ID Application identity. The release workflow verifies the signatures and secure timestamps of both the app and its embedded extension before distribution. Signing identifies the developer and allows macOS to detect post-signing modifications to the bundle; it does not mean Apple has inspected the software for malicious content.
-- **Notarization**: The signed apps and its signed DMGs are submitted to Apple's notary service. Their accepted tickets are stapled to the distributed artifacts and checked with Gatekeeper/stapler tooling. Notarization gives macOS evidence that Apple scanned the submitted build and found no known malicious content, while stapling makes that evidence available even when the Mac is offline.
-
-These layers matter together: the sandbox reduces the app's reach, signing protects identity and integrity, and notarization supports a trusted Gatekeeper launch experience. A local debug build is intended only for development and is not a substitute for the signed, notarized release produced by make build. Users should obtain releases from a trusted project channel; no security mechanism can make an untrusted download source safe.
 
 
