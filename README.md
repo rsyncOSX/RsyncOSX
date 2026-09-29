@@ -25,7 +25,7 @@ A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that m
 brew install --cask rsyncui
 ```
 
-**Requires macOS Sonoma or later.** The latest release is [v3.0.5](https://github.com/rsyncOSX/RsyncUI/releases), released September 10, 2026. RsyncUI is signed and notarized by Apple. 
+Requires **macOS Sonoma or later.** The latest release is [v3.0.5](https://github.com/rsyncOSX/RsyncUI/releases), released September 10, 2026. RsyncUI is signed and notarized by Apple. 
 
 ![RsyncUI synchronization interface](images/rsyncui.png)
 
@@ -41,7 +41,7 @@ A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-ac
 
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
-**Requires Apple Silicon.** The [RawCull v3.2.6](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.6) with AI-powered features is available for **macOS Golden Gate** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
+The [RawCull v3.2.6](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.6) with AI-powered features is available for **macOS Golden Gate** on **Apple Silicon Macs** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
 
