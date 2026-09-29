@@ -41,7 +41,7 @@ A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-ac
 
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
-**Requires Apple Silicon.** The [RawCull v3.2.4](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.4) with AI-powered features is available for **macOS Golden Gate** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
+**Requires Apple Silicon.** The [RawCull v3.2.5](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.5) with AI-powered features is available for **macOS Golden Gate** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
 
