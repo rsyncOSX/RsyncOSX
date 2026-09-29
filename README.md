@@ -37,11 +37,11 @@ Requires **macOS Sonoma or later.** The latest release is [v3.0.5](https://githu
 [![macOS 27](https://img.shields.io/badge/macOS-27-000000?logo=apple)](https://www.apple.com/macos/)
 [![Swift 6](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](https://www.swift.org/)
 
-A fast, native photo-culling application for Sony ARW files. RawCull uses GPU-accelerated analysis—including EXIF extraction, focus-point detection, sharpness scoring, and visual saliency—to help you identify your strongest photographs.
+A fast, native photo-culling application for **Sony ARW** files. RawCull uses GPU-accelerated analysis—including EXIF extraction, focus-point detection, sharpness scoring, and visual saliency—to help you identify your strongest photographs.
+
+Requires **macOS Golden Gate** on **Apple Silicon Macs**.  [RawCull v3.2.6](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.6) with AI-powered features is released. 
 
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
-
-The [RawCull v3.2.6](https://github.com/rsyncOSX/RawCull/releases/tag/v3.2.6) with AI-powered features is available for **macOS Golden Gate** on **Apple Silicon Macs** only. See the [documentation](https://rawcull.netlify.app/docs/) for supported Sony full-frame camera bodies.
 
 ![RawCull photo review interface](images/rawcull.png)
 
