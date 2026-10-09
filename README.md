@@ -6,7 +6,7 @@ Native macOS applications for file synchronization, photo culling, and private o
 | --- | --- | --- |
 | [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma and later |
 | [RawCull](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate |
-| [GitBranchStatus](https://github.com/rsyncOSX/GitHubLocalRemote) | small app to display status local vs GitHub repository  | Apple Silicon, macOS Tahoe and later |
+| [RawBrowse](https://github.com/rsyncOSX/RawBrowse) | AI-assisted Sony RAW photo browser | Apple Silicon, macOS Golden Gate  |
 
 ---
 
