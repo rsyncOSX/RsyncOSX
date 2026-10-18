@@ -1,12 +1,12 @@
 # macOS apps by Thomas (rsyncOSX)
 
-Native macOS applications for file synchronization, photo culling, and private on-device image search. All four (five) applications are actively developed, and their core processing stays on your Mac.
+Native macOS applications for file synchronization, photo culling, and private on-device image search. All three applications are actively developed, and their core processing stays on your Mac.
 
 | Application | Purpose | Requirements |
 | --- | --- | --- |
 | [RsyncUI](#rsyncui) | Graphical file synchronization with `rsync` | macOS Sonoma and later |
 | [RawCull](#rawcull) | AI-assisted Sony RAW photo culling | Apple Silicon, macOS Golden Gate |
-| [RawBrowse](https://github.com/rsyncOSX/RawBrowse) | AI-assisted Sony RAW photo browser | Apple Silicon, macOS Golden Gate  |
+| [RawBrowse](#rawbrowse) | Photo browsing, local AI search, and RAW editing | Apple Silicon, macOS Golden Gate |
 
 ---
 
@@ -43,5 +43,27 @@ Requires **macOS Golden Gate** on **Apple Silicon Macs**.  [RawCull v3.3.3](http
 [Download from the Mac App Store](https://apps.apple.com/no/app/rawcull/id6759362764?mt=12) · [Documentation](https://rawcull.netlify.app/docs/) · [Release notes](https://rawcull.netlify.app/blog/)
 
 ![RawCull photo review interface](images/rawcull.png)
+![RawCull photo review interface](images/rawcull2.png)
 
 
+---
+
+## RawBrowse
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RawBrowse/blob/main/Licence.MD)
+[![macOS 27](https://img.shields.io/badge/macOS-27-000000?logo=apple)](https://www.apple.com/macos/)
+[![Swift 6](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](https://www.swift.org/)
+
+A native SwiftUI photo browser with **local AI-powered search and subject review**. RawBrowse browses JPEG, PNG, TIFF, and RAW formats supported by RawParserKit, including **Sony ARW and DNG**, with folder navigation, zoom previews, and EXIF details.
+
+Requires **macOS Golden Gate (macOS 27) or later** on **Apple Silicon Macs**. Folder browsing works without AI models; AI features require the corresponding model downloads in the app.
+
+[Source code](https://github.com/rsyncOSX/RawBrowse) · [Documentation](https://github.com/rsyncOSX/RawBrowse#readme) · [Report an issue](https://github.com/rsyncOSX/RawBrowse/issues)
+
+- **Semantic search and visual similarity:** Use DataComp CLIP to index a folder and its subfolders, search with natural-language descriptions, or find images similar to a selected photograph. Indexing starts manually and leaves source photographs unchanged.
+- **Subject review:** Use Meta SAM 3 Deep Review for subject masks and sharpness review, enriched with CLIP subject labels and available EXIF autofocus points.
+- **RAW editing and export:** Use RAW 9 on supported photos to adjust white balance, exposure, noise reduction, sharpness, color, and crop. Adjustments are saved in sidecar files, preserving the original RAW. Export rendered images through a background queue.
+- **Private processing:** AI inference, image embeddings, and search stay on your Mac. Optional AI models are downloaded from GitHub; photographs and prompts are not uploaded for AI processing.
+
+![RawBrowse photo browser interface](images/rawbrowse.png)
+![RawBrowse photo review interface](images/rawbrowse2.png)
