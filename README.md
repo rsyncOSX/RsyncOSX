@@ -13,6 +13,7 @@ Native macOS applications for file synchronization, photo culling, and private o
 ## RsyncUI
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD)
+![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.1.0/total)
 ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncUI/v3.0.5/total)
 [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncUI)](https://github.com/rsyncOSX/RsyncUI/issues)
 
@@ -24,7 +25,7 @@ A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that m
 brew install --cask rsyncui
 ```
 
-Requires **macOS Sonoma or later.** The latest release is [v3.0.5](https://github.com/rsyncOSX/RsyncUI/releases), released September 10, 2026. RsyncUI is signed and notarized by Apple. 
+Requires **macOS Sonoma or later.** The latest release is [v3.1.0](https://github.com/rsyncOSX/RsyncUI/releases), released October 25, 2026. RsyncUI is signed and notarized by Apple. 
 
 ![RsyncUI synchronization interface](images/rsyncui.png)
 
