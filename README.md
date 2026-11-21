@@ -26,7 +26,7 @@ A native SwiftUI interface for [`rsync`](https://github.com/WayneD/rsync) that m
 brew install --cask rsyncui
 ```
 
-Requires **macOS Sonoma or later.** The latest release is [v3.1.0](https://github.com/rsyncOSX/RsyncUI/releases), released October 25, 2026. RsyncUI is signed and notarized by Apple. 
+Requires **macOS Sonoma or later.** The latest release is [v3.5.0](https://github.com/rsyncOSX/RsyncUI/releases), released November 21, 2026. RsyncUI is signed and notarized by Apple. 
 
 ![RsyncUI synchronization interface](images/rsyncui.png)
 
